@@ -1,0 +1,30 @@
+{
+  "name": "api-monumental",
+  "version": "1.0.0",
+  "description": "API Sistema MIS Monumental",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JArzate/API-Monumental.git"
+  },
+  "author": "Juan Arzate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JArzate/API-Monumental/issues"
+  },
+  "homepage": "https://github.com/JArzate/API-Monumental#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "esendex": "^0.1.8",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.13",
+    "mongoose-pagination": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
